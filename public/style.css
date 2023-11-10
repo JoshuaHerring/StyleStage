@@ -176,3 +176,9 @@ blockquote::after {
   font-size: var(--font-size-h4);
   font-weight: var(--font-weight-strong);
 }
+
+.svg {
+  fill: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */
