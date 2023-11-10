@@ -2,4 +2,26 @@ body {
   color: red;
 }
 
+main {
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+.link-github {
+  pointer-events: none;
+  cursor: default;
+  position: relative;
+}
+.link-github svg {
+  position: absolute;
+  z-index: -4;
+}
+
 /*# sourceMappingURL=style.css.map */
