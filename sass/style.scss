@@ -2,8 +2,17 @@
 // You can modify the theme directly, or override some of the variables
 // Overrides just need placed prior to the theme import
 // For example:
-// $color-primary: #3a0;
+
+
 @import "theme";
 @import "reset";
 @import "typography";
+<<<<<<< HEAD
 @import "test";
+=======
+
+@import "header";
+@import "sun";
+@import "footer";
+
+>>>>>>> d902cd33be0bf49c9daf148f4c3d267a39b9c374
