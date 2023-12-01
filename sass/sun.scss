@@ -1,0 +1,46 @@
+$sun_color: $sun;
+
+
+svg{
+    position: fixed;
+    z-index: -10;
+    width: 200px;
+    background-color: $sun;
+    border-radius: 50%;
+    fill: transparent;
+    animation: celestial-body linear 40s infinite;
+}
+
+@keyframes celestial-body{
+    0%{
+        top: 20%;
+        left: 5%;
+        background-color: $sun;
+    }
+
+    25%{
+        top: 20%;
+        left: calc(100% - 220px);
+        background-color: $sun;
+        box-shadow: none;
+    }
+
+    50%{
+        left: calc(100% - 220px);
+        top:50%;
+        background-color: transparent;
+        box-shadow: inset -80px 5px 0 3px whitesmoke
+    }
+
+    75%{
+        left: 5%;
+        top: 50%;
+        background-color: transparent;
+    }
+
+    100%{
+        top: 20%;
+        left: 5%;
+        background-color: $sun;
+    }
+}

@@ -1,0 +1,26 @@
+.skip-link{
+    display: none;
+}
+
+header{
+    background-color: red;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+header svg{
+    display: none;
+}
+
+nav ul{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: orange;
+}
+
+nav a{
+    text-decoration: none;
+}
