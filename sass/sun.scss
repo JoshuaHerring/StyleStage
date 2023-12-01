@@ -20,13 +20,13 @@ svg{
 
     25%{
         top: 10%;
-        left: 65%;
+        left: calc(100% - 220px);
         background-color: $sun;
         fill: $sun;
     }
 
     50%{
-        left:65%;
+        left: calc(100% - 220px);
         top:50%;
         background-color: white;
         fill: white;
