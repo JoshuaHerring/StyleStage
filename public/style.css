@@ -24,4 +24,8 @@ main {
   z-index: -4;
 }
 
+.container {
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */
