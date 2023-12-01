@@ -196,8 +196,8 @@ svg {
   width: 200px;
   background-color: #f7c029;
   border-radius: 50%;
-  fill: #f7c029;
-  animation: celestial-body linear 20s infinite;
+  fill: transparent;
+  animation: celestial-body linear 40s infinite;
 }
 
 @keyframes celestial-body {
@@ -210,19 +210,18 @@ svg {
     top: 10%;
     left: calc(100% - 220px);
     background-color: #f7c029;
-    fill: #f7c029;
+    box-shadow: none;
   }
   50% {
     left: calc(100% - 220px);
     top: 50%;
-    background-color: white;
-    fill: white;
+    background-color: transparent;
+    box-shadow: inset -100px 5px 0 3px whitesmoke;
   }
   75% {
     left: 5%;
     top: 50%;
-    background-color: white;
-    fill: white;
+    background-color: transparent;
   }
   100% {
     top: 10%;
