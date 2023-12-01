@@ -3,11 +3,45 @@ $sun_color: $sun;
 
 svg{
     position: fixed;
-    left: 10%;
     z-index: -1;
     width: 200px;
     background-color: $sun;
     border-radius: 50%;
     fill: $sun;
+    animation: celestial-body linear 20s infinite;
 }
 
+@keyframes celestial-body{
+    0%{
+        top: 10%;
+        left: 5%;
+        background-color: $sun;
+    }
+
+    25%{
+        top: 10%;
+        left: 65%;
+        background-color: $sun;
+        fill: $sun;
+    }
+
+    50%{
+        left:65%;
+        top:50%;
+        background-color: white;
+        fill: white;
+    }
+
+    75%{
+        left: 5%;
+        top: 50%;
+        background-color: white;
+        fill: white;
+    }
+
+    100%{
+        top: 10%;
+        left: 5%;
+        background-color: $sun;
+    }
+}
