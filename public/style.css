@@ -4,6 +4,7 @@
  * @link https://github.com/hankchizljaw/modern-css-reset
 */
 /* Box sizing rules */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Recursive:ital,wght@0..1,300..800&display=swap");
 *,
 *::before,
 *::after {
@@ -57,6 +58,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+* {
+  font-family: "EB Garamond", serif;
+}
+
 h1,
 h2,
 h3,
@@ -187,12 +192,43 @@ body {
 
 svg {
   position: fixed;
-  left: 10%;
   z-index: -1;
   width: 200px;
   background-color: #f7c029;
   border-radius: 50%;
   fill: #f7c029;
+  animation: celestial-body linear 20s infinite;
+}
+
+@keyframes celestial-body {
+  0% {
+    top: 10%;
+    left: 5%;
+    background-color: #f7c029;
+  }
+  25% {
+    top: 10%;
+    left: 65%;
+    background-color: #f7c029;
+    fill: #f7c029;
+  }
+  50% {
+    left: 65%;
+    top: 50%;
+    background-color: white;
+    fill: white;
+  }
+  75% {
+    left: 5%;
+    top: 50%;
+    background-color: white;
+    fill: white;
+  }
+  100% {
+    top: 10%;
+    left: 5%;
+    background-color: #f7c029;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
