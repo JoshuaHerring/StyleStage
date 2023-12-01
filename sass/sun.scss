@@ -3,7 +3,7 @@ $sun_color: $sun;
 
 svg{
     position: fixed;
-    z-index: -1;
+    z-index: -10;
     width: 200px;
     background-color: $sun;
     border-radius: 50%;
@@ -13,13 +13,13 @@ svg{
 
 @keyframes celestial-body{
     0%{
-        top: 10%;
+        top: 20%;
         left: 5%;
         background-color: $sun;
     }
 
     25%{
-        top: 10%;
+        top: 20%;
         left: calc(100% - 220px);
         background-color: $sun;
         box-shadow: none;
@@ -29,7 +29,7 @@ svg{
         left: calc(100% - 220px);
         top:50%;
         background-color: transparent;
-        box-shadow: inset -100px 5px 0 3px whitesmoke
+        box-shadow: inset -80px 5px 0 3px whitesmoke
     }
 
     75%{
@@ -39,7 +39,7 @@ svg{
     }
 
     100%{
-        top: 10%;
+        top: 20%;
         left: 5%;
         background-color: $sun;
     }

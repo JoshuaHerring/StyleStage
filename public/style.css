@@ -182,6 +182,33 @@ blockquote::after {
   font-weight: var(--font-weight-strong);
 }
 
+.skip-link {
+  display: none;
+}
+
+header {
+  background-color: red;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+header svg {
+  display: none;
+}
+
+nav ul {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: orange;
+}
+
+nav a {
+  text-decoration: none;
+}
+
 .link-github {
   font-size: 0px;
 }
@@ -192,7 +219,7 @@ body {
 
 svg {
   position: fixed;
-  z-index: -1;
+  z-index: -10;
   width: 200px;
   background-color: #f7c029;
   border-radius: 50%;
@@ -202,12 +229,12 @@ svg {
 
 @keyframes celestial-body {
   0% {
-    top: 10%;
+    top: 20%;
     left: 5%;
     background-color: #f7c029;
   }
   25% {
-    top: 10%;
+    top: 20%;
     left: calc(100% - 220px);
     background-color: #f7c029;
     box-shadow: none;
@@ -216,7 +243,7 @@ svg {
     left: calc(100% - 220px);
     top: 50%;
     background-color: transparent;
-    box-shadow: inset -100px 5px 0 3px whitesmoke;
+    box-shadow: inset -80px 5px 0 3px whitesmoke;
   }
   75% {
     left: 5%;
@@ -224,7 +251,7 @@ svg {
     background-color: transparent;
   }
   100% {
-    top: 10%;
+    top: 20%;
     left: 5%;
     background-color: #f7c029;
   }
