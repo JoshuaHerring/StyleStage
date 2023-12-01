@@ -1,0 +1,13 @@
+$sun_color: $sun;
+
+
+svg{
+    position: fixed;
+    left: 10%;
+    z-index: -1;
+    width: 200px;
+    background-color: $sun;
+    border-radius: 50%;
+    fill: $sun;
+}
+

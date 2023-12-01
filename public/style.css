@@ -176,3 +176,23 @@ blockquote::after {
   font-size: var(--font-size-h4);
   font-weight: var(--font-weight-strong);
 }
+
+.link-github {
+  font-size: 0px;
+}
+
+body {
+  background-color: #ca6702;
+}
+
+svg {
+  position: fixed;
+  left: 10%;
+  z-index: -1;
+  width: 200px;
+  background-color: #f7c029;
+  border-radius: 50%;
+  fill: #f7c029;
+}
+
+/*# sourceMappingURL=style.css.map */
