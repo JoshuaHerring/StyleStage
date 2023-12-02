@@ -209,6 +209,11 @@ nav a {
   text-decoration: none;
 }
 
+.container h1, h2 {
+  color: black;
+  text-align: center;
+}
+
 .link-github {
   font-size: 0px;
 }
