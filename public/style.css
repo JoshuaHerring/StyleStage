@@ -187,7 +187,8 @@ blockquote::after {
 }
 
 header {
-  background-color: red;
+  background-color: #94b2bd;
+  color: white;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -202,15 +203,22 @@ nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
-  background-color: orange;
 }
 
 nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  background-color: #bb3e03;
+  color: white;
+}
+
 .container h1, h2 {
-  color: black;
+  text-align: center;
+}
+
+.container > p {
   text-align: center;
 }
 
