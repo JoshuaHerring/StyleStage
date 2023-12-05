@@ -59,6 +59,8 @@ select {
 }
 * {
   font-family: "EB Garamond", serif;
+  color: white;
+  text-decoration: none;
 }
 
 h1,
@@ -78,9 +80,7 @@ h2 {
 }
 
 #main h2 {
-  background-color: var(--color-secondary);
   align-self: center;
-  color: var(--color-background);
   padding: 0.25em 0.5em;
 }
 
@@ -94,7 +94,6 @@ p {
 
 header {
   background-color: #94b2bd;
-  color: white;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -113,8 +112,6 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: white;
-  border: 1px solid white;
 }
 
 nav a:hover {
