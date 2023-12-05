@@ -5,3 +5,13 @@
 body{
     background-color: $early-morning;
 }
+
+main{
+    backdrop-filter: blur(11px);
+    width: 80%;
+    margin: 0 auto;
+    color: white;  
+}
+
+
+

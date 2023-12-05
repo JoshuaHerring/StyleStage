@@ -206,11 +206,11 @@ nav ul {
 
 nav a {
   text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
   background-color: #bb3e03;
-  color: white;
 }
 
 .container h1, h2 {
@@ -227,6 +227,13 @@ nav a:hover {
 
 body {
   background-color: #ca6702;
+}
+
+main {
+  backdrop-filter: blur(11px);
+  width: 80%;
+  margin: 0 auto;
+  color: white;
 }
 
 footer svg {
