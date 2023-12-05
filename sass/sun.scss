@@ -1,6 +1,7 @@
 $sun_color: $sun;
 
 
+
 footer svg{
     position: fixed;
     z-index: -10;
@@ -8,38 +9,54 @@ footer svg{
     background-color: $sun;
     border-radius: 50%;
     fill: transparent;
-    animation: celestial-body linear 40s infinite;
+    animation: celestial-body linear 10s infinite;
 }
 
 @keyframes celestial-body{
     0%{
-        top: 20%;
+        top: 25%;
         left: 5%;
         background-color: $sun;
     }
 
-    25%{
+    15%{
         top: 20%;
-        left: calc(100% - 220px);
+    }
+
+    30%{
+        top: 25%;
+        left: calc(95% - 220px);
         background-color: $sun;
         box-shadow: none;
     }
 
-    50%{
+    35%{
         left: calc(100% - 220px);
-        top:50%;
+    }
+
+    40%{
+        left: calc(95% - 220px);
+        top:45%;
         background-color: transparent;
         box-shadow: inset -80px 5px 0 3px whitesmoke
     }
 
-    75%{
+    65%{
+        top: 55%;
+    }
+
+    90%{
         left: 5%;
-        top: 50%;
+        top: 45%;
         background-color: transparent;
     }
 
+    95%{
+        left: 0%;
+    }
+
     100%{
-        top: 20%;
+        top: 25%;
         left: 5%;
         background-color: $sun;
     }
