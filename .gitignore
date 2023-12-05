@@ -4,4 +4,3 @@
 *.log
 .htaccess
 node_modules/
-style.css
