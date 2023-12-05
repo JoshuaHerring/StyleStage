@@ -8,10 +8,17 @@ body{
 
 main{
     backdrop-filter: blur(11px);
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     color: white;  
 }
 
+.profile{
+    display: none;
+}
+
+#styles{
+    display: none;
+}
 
 
