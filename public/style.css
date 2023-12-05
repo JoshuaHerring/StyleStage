@@ -217,7 +217,7 @@ body {
   background-color: #ca6702;
 }
 
-svg {
+footer svg {
   position: fixed;
   z-index: -10;
   width: 200px;
