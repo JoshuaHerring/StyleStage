@@ -68,7 +68,6 @@ h3,
 h4 {
   font-weight: var(--font-weight-strong);
   line-height: 1;
-  margin-bottom: 0.65em;
 }
 
 h1 {
@@ -103,7 +102,7 @@ li {
 }
 
 p {
-  margin: 0 0 1rem;
+  margin: 0 0;
 }
 
 article .container > ul:not(.features) > li + li,
@@ -199,7 +198,7 @@ header svg {
 }
 
 nav ul {
-  padding-top: 100px;
+  padding-top: 65px;
   display: flex;
   justify-content: space-around;
   list-style: none;
