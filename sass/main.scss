@@ -1,24 +1,43 @@
-.link-github{
-    font-size: 0px;
+body {
+	background: linear-gradient(
+        to top,
+        transparent 10%,
+        pink,
+        #caf0f8,
+        #b0e8fb,
+        #a2e8ff,
+        #ffba08,
+        #faa307,
+        #f48c06,
+        #e85d04,
+        #dc2f02,
+        #d00000,
+        #9d0208,
+        #6a040f,
+        #370617,
+        #03071e,
+        transparent
+    );
+    background-color: black;
+	background-size: 100% 900%;
+    background-position: 50% 0%;
+	animation: gradient 50s ease-in-out infinite;
+	height: 100vh;
+    z-index: -7;
+    
 }
 
-body{
-    background-color: $early-morning;
+@keyframes gradient {
+    0% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 50% -10%;
+        background-color: black;
+    }
 }
 
-main{
-    backdrop-filter: blur(11px);
-    width: 90%;
-    margin: 0 auto;
-    color: white;  
-}
 
-.profile{
-    display: none;
-}
 
-#styles{
-    display: none;
-}
 
 
