@@ -182,6 +182,37 @@ blockquote::after {
   font-weight: var(--font-weight-strong);
 }
 
+.skip-link {
+  display: none;
+}
+
+header {
+  background-color: red;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+header svg {
+  display: none;
+}
+
+nav ul {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: orange;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.link-github {
+  font-size: 0px;
+}
+
 body {
   background: linear-gradient(to top, transparent 10%, pink, #caf0f8, #b0e8fb, #a2e8ff, #ffba08, #faa307, #f48c06, #e85d04, #dc2f02, #d00000, #9d0208, #6a040f, #370617, #03071e, transparent);
   background-color: black;
@@ -190,6 +221,7 @@ body {
   animation: gradient 50s ease-in-out infinite;
   height: 100vh;
 }
+
 
 @keyframes gradient {
   0% {
@@ -200,42 +232,56 @@ body {
     background-color: black;
   }
 }
+
+
 svg {
+footer svg {
   position: fixed;
-  z-index: -1;
+  z-index: -10;
   width: 200px;
   background-color: #f7c029;
   border-radius: 50%;
-  fill: #f7c029;
-  animation: celestial-body linear 20s infinite;
+  fill: transparent;
+  animation: celestial-body linear 10s infinite;
 }
 
 @keyframes celestial-body {
   0% {
-    top: 10%;
+    top: 25%;
     left: 5%;
     background-color: #f7c029;
   }
-  25% {
-    top: 10%;
-    left: calc(100% - 220px);
+  15% {
+    top: 20%;
+  }
+  30% {
+    top: 25%;
+    left: calc(95% - 220px);
     background-color: #f7c029;
-    fill: #f7c029;
+    box-shadow: none;
   }
-  50% {
+  35% {
     left: calc(100% - 220px);
-    top: 50%;
-    background-color: white;
-    fill: white;
   }
-  75% {
+  40% {
+    left: calc(95% - 220px);
+    top: 45%;
+    background-color: transparent;
+    box-shadow: inset -80px 5px 0 3px whitesmoke;
+  }
+  65% {
+    top: 55%;
+  }
+  90% {
     left: 5%;
-    top: 50%;
-    background-color: white;
-    fill: white;
+    top: 45%;
+    background-color: transparent;
+  }
+  95% {
+    left: 0%;
   }
   100% {
-    top: 10%;
+    top: 25%;
     left: 5%;
     background-color: #f7c029;
   }
