@@ -183,17 +183,44 @@ blockquote::after {
 }
 
 body {
-  background: linear-gradient(to top, transparent 10%, pink, #caf0f8, #b0e8fb, #a2e8ff, #ffba08, #faa307, #f48c06, #e85d04, #dc2f02, #d00000, #9d0208, #6a040f, #370617, #03071e, transparent);
+  background: linear-gradient(to top, transparent 5%, pink, #caf0f8, #b0e8fb, #a2e8ff, #ffba08, #faa307, #f48c06, #e85d04, #dc2f02, #d00000, #9d0208, #6a040f, #370617, #03071e, transparent);
   background-color: black;
-  background-size: 100% 900%;
-  background-position: 50% 0%;
-  animation: gradient 50s ease-in-out infinite;
   height: 100vh;
 }
 
 @keyframes gradient {
   0% {
     background-position: 50% 100%;
+  }
+  15% {
+    background-position: 50% 90%;
+  }
+  25% {
+    background-position: 50% 80%;
+  }
+  35% {
+    background-position: 50% 70%;
+  }
+  45% {
+    background-position: 50% 60%;
+  }
+  55% {
+    background-position: 50% 50%;
+  }
+  65% {
+    background-position: 50% 40%;
+  }
+  75% {
+    background-position: 50% 30%;
+  }
+  85% {
+    background-position: 50% 20%;
+  }
+  90% {
+    background-position: 50% 10%;
+  }
+  95% {
+    background-position: 50% 0%;
   }
   100% {
     background-position: 50% -10%;
@@ -241,4 +268,4 @@ svg {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
