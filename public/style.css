@@ -103,8 +103,12 @@ header svg {
   display: none;
 }
 
+header .link-github {
+  display: none;
+}
+
 nav ul {
-  padding-top: 100px;
+  padding-top: 70px;
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -126,10 +130,6 @@ nav a:hover {
   text-align: center;
 }
 
-.link-github {
-  font-size: 0px;
-}
-
 body {
   background: linear-gradient(to top, transparent 10%, pink, #caf0f8, #b0e8fb, #a2e8ff, #ffba08, #faa307, #f48c06, #e85d04, #dc2f02, #d00000, #9d0208, #6a040f, #370617, #03071e, transparent);
   background-color: black;
@@ -137,8 +137,8 @@ body {
   background-position: 50% 0%;
   animation: gradient 50s ease-in-out infinite;
   height: 100vh;
+  z-index: -7;
 }
-
 
 @keyframes gradient {
   0% {
@@ -147,6 +147,48 @@ body {
   100% {
     background-position: 50% -10%;
     background-color: black;
+  }
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  backdrop-filter: blur(6.3px);
+}
+
+.profile {
+  display: none;
+}
+
+#styles {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+ul,
+a {
+  animation: textAnimation 50s ease-in-out infinite;
+}
+
+@keyframes textAnimation {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  75% {
+    color: white;
+  }
+  85% {
+    color: white;
+  }
+  100% {
+    color: white;
   }
 }
 footer svg {

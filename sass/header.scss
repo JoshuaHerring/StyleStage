@@ -13,8 +13,12 @@ header svg{
     display:none;
 }
 
+header .link-github{
+    display: none;
+}
+
 nav ul{
-    padding-top: 100px;
+    padding-top: 70px;
     display: flex;
     justify-content: space-around;
     list-style: none;

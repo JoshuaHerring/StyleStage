@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(
+    background: linear-gradient(
         to top,
         transparent 10%,
         pink,
@@ -19,12 +19,11 @@ body {
         transparent
     );
     background-color: black;
-	background-size: 100% 900%;
+    background-size: 100% 900%;
     background-position: 50% 0%;
-	animation: gradient 50s ease-in-out infinite;
-	height: 100vh;
+    animation: gradient 50s ease-in-out infinite;
+    height: 100vh;
     z-index: -7;
-    
 }
 
 @keyframes gradient {
@@ -37,7 +36,47 @@ body {
     }
 }
 
+main {
+    width: 80%;
+    margin: 0 auto;
+    backdrop-filter: blur(6.3px);
+}
 
+.profile {
+    display: none;
+}
 
+#styles {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+ul,
+a {
+    animation: textAnimation 50s ease-in-out infinite;
+}
+
+@keyframes textAnimation {
+    0% {
+        color: white;
+    }
+    50% {
+        color: red;
+    }
+    75% {
+        color: white;
+    }
+    85% {
+        color: white;
+    }
+    100% {
+        color: white;
+    }
+}
 
 
