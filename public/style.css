@@ -191,7 +191,7 @@ footer svg {
   background-color: #f7c029;
   border-radius: 50%;
   fill: transparent;
-  animation: celestial-body linear 50s infinite;
+  animation: celestial-body linear 40s infinite;
 }
 
 @keyframes celestial-body {
