@@ -203,29 +203,41 @@ footer svg {
 
 @keyframes celestial-body {
   0% {
-    top: 20%;
+    top: 25%;
     left: 5%;
     background-color: #f7c029;
   }
-  25% {
+  15% {
     top: 20%;
-    left: calc(100% - 220px);
+  }
+  30% {
+    top: 25%;
+    left: calc(95% - 220px);
     background-color: #f7c029;
     box-shadow: none;
   }
-  50% {
+  35% {
     left: calc(100% - 220px);
-    top: 50%;
+  }
+  40% {
+    left: calc(95% - 220px);
+    top: 45%;
     background-color: transparent;
     box-shadow: inset -80px 5px 0 3px whitesmoke;
   }
-  75% {
+  65% {
+    top: 55%;
+  }
+  90% {
     left: 5%;
-    top: 50%;
+    top: 45%;
     background-color: transparent;
   }
+  95% {
+    left: 0%;
+  }
   100% {
-    top: 20%;
+    top: 25%;
     left: 5%;
     background-color: #f7c029;
   }
