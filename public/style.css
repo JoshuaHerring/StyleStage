@@ -153,6 +153,7 @@ main {
   width: 80%;
   margin: 0 auto;
   backdrop-filter: blur(6.3px);
+  background-color: rgba(255, 255, 255, 0.0705882353);
 }
 
 .profile {
