@@ -12,51 +12,106 @@ footer svg{
 }
 
 @keyframes celestial-body{
+
     0%{
-        top: 25%;
-        left: 5%;
-        background-color: $sun;
-    }
- 
-    15%{
-        top: 20%;
-    }
- 
-    30%{
-        top: 25%;
-        left: calc(95% - 220px);
-        background-color: $sun;
-        box-shadow: none;
-    }
- 
-    35%{
-        left: calc(100% - 220px);
-    }
- 
-    40%{
         left: calc(95% - 220px);
         top:45%;
         background-color: transparent;
         box-shadow: inset -80px 5px 0 3px whitesmoke
     }
- 
-    65%{
+    
+    15%{
         top: 55%;
     }
- 
-    90%{
+    
+    30%{
         left: 5%;
         top: 45%;
         background-color: transparent;
     }
- 
-    95%{
+    
+    35%{
         left: 0%;
     }
- 
-    100%{
+    
+    40%{
         top: 25%;
         left: 5%;
         background-color: $sun;
+        box-shadow: none;
     }
+
+    65%{
+        top: 20%;
+        left: 35%;
+        background-color: $sun;
+    }
+ 
+    85%{
+        top: 25%;
+        left: calc(95% - 220px);
+        box-shadow: none;
+    }
+ 
+    90%{
+        top: 35%;
+        left: calc(100% - 220px);
+    }
+ 
+    100%{
+        top:45%;
+        left: calc(95% - 220px);
+        background-color: transparent;
+        box-shadow: inset -80px 5px 0 3px whitesmoke
+    }
+ 
+
+
+    // 0%{
+    //     top: 25%;
+    //     left: 5%;
+    //     background-color: $sun;
+    // }
+ 
+    // 15%{
+    //     top: 20%;
+    // }
+ 
+    // 30%{
+    //     top: 25%;
+    //     left: calc(95% - 220px);
+    //     background-color: $sun;
+    //     box-shadow: none;
+    // }
+ 
+    // 35%{
+    //     left: calc(100% - 220px);
+    // }
+ 
+    // 40%{
+    //     left: calc(95% - 220px);
+    //     top:45%;
+    //     background-color: transparent;
+    //     box-shadow: inset -80px 5px 0 3px whitesmoke
+    // }
+ 
+    // 65%{
+    //     top: 55%;
+    // }
+ 
+    // 90%{
+    //     left: 5%;
+    //     top: 45%;
+    //     background-color: transparent;
+    // }
+ 
+    // 95%{
+    //     left: 0%;
+    // }
+ 
+    // 100%{
+    //     top: 25%;
+    //     left: 5%;
+    //     background-color: $sun;
+    // }
 }
