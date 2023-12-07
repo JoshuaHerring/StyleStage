@@ -1,3 +1,11 @@
+@mixin blur{
+    backdrop-filter: blur(6.3px);
+    background-color: #FFFFFF21;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 20px #FFFFFF21;
+}
+
+
 body {
     background: linear-gradient(
         to top,
@@ -39,8 +47,6 @@ body {
 main {
     width: 80%;
     margin: 0 auto;
-    backdrop-filter: blur(6.3px);
-    background-color: #ffffff12;
 }
 
 h1,

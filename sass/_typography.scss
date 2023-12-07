@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Recursive:ital,wght@0..1,300..800&display=swap');
+@import "main";  
 
 *{
   font-family: 'EB Garamond', serif;
@@ -29,4 +30,42 @@ h2 {
 
 p {
   margin: 0 0;
+}
+
+// Layout 
+#about {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  @include blur;
+}
+
+#about ul {
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#guidelines {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  @include blur;
+}
+
+#contribute{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  @include blur;
 }
