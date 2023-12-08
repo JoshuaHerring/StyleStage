@@ -85,6 +85,8 @@ section {
   color: white;
   background-color: rgba(0, 0, 0, 0.1333333333);
   border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 * {
@@ -259,7 +261,7 @@ nav a:hover {
 }
 
 .container > p {
-  text-align: center;
+  text-align: left;
 }
 
 body {
@@ -290,6 +292,8 @@ section {
   color: white;
   background-color: rgba(0, 0, 0, 0.1333333333);
   border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 footer svg {
