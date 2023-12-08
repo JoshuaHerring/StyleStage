@@ -305,7 +305,7 @@ footer svg {
   background-color: #f7c029;
   border-radius: 50%;
   fill: transparent;
-  animation: celestial-body linear 40s infinite;
+  animation: celestial-body linear 10s infinite;
 }
 
 @keyframes celestial-body {
@@ -315,36 +315,38 @@ footer svg {
     background-color: transparent;
     box-shadow: inset -80px 5px 0 3px whitesmoke;
   }
-  15% {
+  10% {
     top: 55%;
   }
-  30% {
+  25% {
     left: 5%;
     top: 45%;
     background-color: transparent;
   }
-  35% {
+  30% {
     left: 0%;
   }
-  40% {
+  35% {
     top: 25%;
     left: 5%;
     background-color: #f7c029;
     box-shadow: none;
   }
-  65% {
+  45% {
     top: 20%;
     left: 35%;
     background-color: #f7c029;
   }
-  85% {
+  65% {
     top: 25%;
     left: calc(95% - 220px);
     box-shadow: none;
   }
-  90% {
+  85% {
     top: 35%;
     left: calc(100% - 220px);
+    background-color: transparent;
+    box-shadow: inset -80px 5px 0 3px whitesmoke;
   }
   100% {
     top: 45%;
