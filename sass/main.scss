@@ -49,33 +49,8 @@ main {
     margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-li,
-ul,
-a {
-    animation: textAnimation 40s ease-in-out infinite;
+section{
+    color: white;
+    background-color: #00000022;
+    border-radius: 20px;
 }
-
-@keyframes textAnimation {
-    0% {
-        color: white;
-    }
-    25% {
-        color: red;
-    }
-    40% {
-        color: red;
-    }
-    50% {
-        color: white;
-    }
-    100% {
-        color: white;
-    }
-}
-
-
