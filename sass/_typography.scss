@@ -37,7 +37,6 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
   @include blur;
@@ -70,6 +69,30 @@ p {
   @include blur;
 }
 
+.profile {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 55px;
+  width: 80%;
+  @include blur;
+}
+
+#styles {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 55px;
+  width: 80%;
+  @include blur;
+}
+
 
 @media (min-width: 768px) {
   #about {
@@ -89,5 +112,13 @@ p {
   #contribute {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+  }
+  .profile{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #styles{
+    margin-left: auto;
+    margin-right: auto;
   }
 }

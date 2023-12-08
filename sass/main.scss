@@ -57,20 +57,20 @@ p,
 li,
 ul,
 a {
-    animation: textAnimation 50s ease-in-out infinite;
+    animation: textAnimation 40s ease-in-out infinite;
 }
 
 @keyframes textAnimation {
     0% {
         color: white;
     }
-    50% {
+    25% {
         color: red;
     }
-    75% {
-        color: white;
+    40% {
+        color: red;
     }
-    85% {
+    50% {
         color: white;
     }
     100% {

@@ -89,20 +89,20 @@ p,
 li,
 ul,
 a {
-  animation: textAnimation 50s ease-in-out infinite;
+  animation: textAnimation 40s ease-in-out infinite;
 }
 
 @keyframes textAnimation {
   0% {
     color: white;
   }
-  50% {
+  25% {
     color: red;
   }
-  75% {
-    color: white;
+  40% {
+    color: red;
   }
-  85% {
+  50% {
     color: white;
   }
   100% {
@@ -144,7 +144,6 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
   backdrop-filter: blur(6.3px);
@@ -186,6 +185,36 @@ p {
   box-shadow: 0 0 10px 20px rgba(255, 255, 255, 0.1294117647);
 }
 
+.profile {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 55px;
+  width: 80%;
+  backdrop-filter: blur(6.3px);
+  background-color: rgba(255, 255, 255, 0.1294117647);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 20px rgba(255, 255, 255, 0.1294117647);
+}
+
+#styles {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 55px;
+  width: 80%;
+  backdrop-filter: blur(6.3px);
+  background-color: rgba(255, 255, 255, 0.1294117647);
+  border-radius: 20px;
+  box-shadow: 0 0 10px 20px rgba(255, 255, 255, 0.1294117647);
+}
+
 @media (min-width: 768px) {
   #about {
     grid-template-columns: 1fr 1fr;
@@ -202,6 +231,14 @@ p {
   #contribute {
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+  }
+  .profile {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #styles {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .skip-link {
@@ -278,20 +315,20 @@ p,
 li,
 ul,
 a {
-  animation: textAnimation 50s ease-in-out infinite;
+  animation: textAnimation 40s ease-in-out infinite;
 }
 
 @keyframes textAnimation {
   0% {
     color: white;
   }
-  50% {
+  25% {
     color: red;
   }
-  75% {
-    color: white;
+  40% {
+    color: red;
   }
-  85% {
+  50% {
     color: white;
   }
   100% {
