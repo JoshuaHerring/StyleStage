@@ -8,7 +8,7 @@ footer svg{
     background-color: $sun;
     border-radius: 50%;
     fill: transparent;
-    animation: celestial-body linear 10s infinite;
+    animation: celestial-body linear 50s infinite;
 }
 
 @keyframes celestial-body{
