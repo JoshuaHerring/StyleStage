@@ -69,3 +69,25 @@ p {
   margin-bottom: 30px;
   @include blur;
 }
+
+
+@media (min-width: 768px) {
+  #about {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+  #about ul {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+  }
+
+  #guidelines {
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+  #contribute {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
