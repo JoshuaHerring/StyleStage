@@ -89,6 +89,22 @@ section {
   padding: 10px;
 }
 
+.profile {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1333333333);
+  border-radius: 20px;
+  margin-bottom: 80px;
+  padding: 10px;
+}
+
+#styles {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1333333333);
+  border-radius: 20px;
+  margin-bottom: 80px;
+  padding: 10px;
+}
+
 * {
   font-family: "EB Garamond", serif;
   color: white;
@@ -297,6 +313,22 @@ section {
   background-color: rgba(0, 0, 0, 0.1333333333);
   border-radius: 20px;
   margin-bottom: 20px;
+  padding: 10px;
+}
+
+.profile {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1333333333);
+  border-radius: 20px;
+  margin-bottom: 80px;
+  padding: 10px;
+}
+
+#styles {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1333333333);
+  border-radius: 20px;
+  margin-bottom: 80px;
   padding: 10px;
 }
 
