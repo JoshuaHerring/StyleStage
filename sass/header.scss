@@ -17,7 +17,7 @@ header{
     .container p{
         text-shadow: 0px;
         -webkit-text-stroke: 0px ;
-        margin-bottom: 35px;
+        margin-bottom: 50px;
         text-align: center;
     }
 }
@@ -37,17 +37,37 @@ nav{
 nav ul{
     display: flex;
     justify-content: space-around;
-    list-style: none;
-    padding: 16px;
+    align-items: center;
+    list-style-type: none;
+    flex-direction: column;
+    padding-left: 0px;
+    margin-top: 0px;    
+
+    li{
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    @media screen and (min-width: 536px) {
+        padding: 16px;
+        flex-direction: row;
+        
+      }
 }
 
 nav a{
     text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 23px;
 }
 
 
 nav a:hover{
-    background-color: $late-evning;
+    background-color: #FFFFFF21;
+    text-shadow: #FC0 1px 0px 20px;
+    color: black;
+
 }
 
 .container h1, h2 {
