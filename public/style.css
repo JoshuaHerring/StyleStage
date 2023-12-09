@@ -105,6 +105,11 @@ section {
   padding: 10px;
 }
 
+#contribute .container > h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
 * {
   font-family: "EB Garamond", serif;
   color: white;
@@ -335,6 +340,11 @@ section {
   border-radius: 20px;
   margin-bottom: 80px;
   padding: 10px;
+}
+
+#contribute .container > h3 {
+  text-align: center;
+  font-size: 30px;
 }
 
 footer svg {
