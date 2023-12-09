@@ -101,7 +101,9 @@ h4 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 5rem;
+  padding: 50px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -225,10 +227,12 @@ p {
 }
 
 header {
-  background-color: #94b2bd;
   width: 100%;
-  position: fixed;
   z-index: 1;
+}
+header h2 {
+  padding: 30px;
+  padding-bottom: 20px;
 }
 
 header svg {
@@ -240,10 +244,10 @@ header .link-github {
 }
 
 nav ul {
-  padding-top: 70px;
   display: flex;
   justify-content: space-around;
   list-style: none;
+  padding: 16px;
 }
 
 nav a {
