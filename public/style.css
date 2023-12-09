@@ -4,6 +4,7 @@
 */
 /* Box sizing rules */
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Recursive:ital,wght@0..1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&display=swap");
 *,
 *::before,
 *::after {
@@ -58,6 +59,8 @@ select {
   }
 }
 body {
+  max-width: 1500px;
+  margin: 0 auto;
   background: linear-gradient(to top, transparent 10%, pink, #caf0f8, #b0e8fb, #a2e8ff, #ffba08, #faa307, #f48c06, #e85d04, #dc2f02, #d00000, #9d0208, #6a040f, #370617, #03071e, transparent);
   background-color: black;
   background-size: 100% 900%;
@@ -85,12 +88,22 @@ section {
   color: white;
   background-color: rgba(0, 0, 0, 0.1333333333);
   border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
 }
 
+@font-face {
+  font-family: "Lofi Lifestyle Demo";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../public/font/Lofi%20Lifestyle%20Demo.woff") format("woff");
+}
 * {
   font-family: "EB Garamond", serif;
+  line-height: 1.7;
   color: white;
   text-decoration: none;
+  font-size: 20px;
 }
 
 h1,
@@ -98,22 +111,28 @@ h2,
 h3,
 h4 {
   line-height: 1;
+  font-family: "Lofi Lifestyle Demo";
+  -webkit-text-stroke: 1px black;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 7rem;
   padding: 50px;
   padding-bottom: 20px;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
+  font-family: "Balsamiq Sans", sans-serif;
+  font-weight: lighter;
+  -webkit-text-stroke: 1px black;
 }
 
 #main h2 {
   align-self: center;
   padding: 0.25em 0.5em;
+  margin-bottom: 20px;
 }
 
 p {
@@ -229,10 +248,19 @@ p {
 header {
   width: 100%;
   z-index: 1;
+  text-shadow: #FC0 1px 0 10px;
+  -webkit-text-stroke: 1px black;
+  font-weight: lighter;
 }
 header h2 {
   padding: 30px;
   padding-bottom: 20px;
+}
+header .container p {
+  text-shadow: 0px;
+  -webkit-text-stroke: 0px;
+  margin-bottom: 35px;
+  text-align: center;
 }
 
 header svg {
@@ -241,6 +269,10 @@ header svg {
 
 header .link-github {
   display: none;
+}
+
+nav {
+  margin-bottom: 65px;
 }
 
 nav ul {
@@ -263,10 +295,12 @@ nav a:hover {
 }
 
 .container > p {
-  text-align: center;
+  text-align: left;
 }
 
 body {
+  max-width: 1500px;
+  margin: 0 auto;
   background: linear-gradient(to top, transparent 10%, pink, #caf0f8, #b0e8fb, #a2e8ff, #ffba08, #faa307, #f48c06, #e85d04, #dc2f02, #d00000, #9d0208, #6a040f, #370617, #03071e, transparent);
   background-color: black;
   background-size: 100% 900%;
@@ -294,6 +328,8 @@ section {
   color: white;
   background-color: rgba(0, 0, 0, 0.1333333333);
   border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
 }
 
 footer svg {

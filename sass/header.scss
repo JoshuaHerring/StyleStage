@@ -5,10 +5,20 @@
 header{
     width: 100%;
     z-index: 1;
+    text-shadow: #FC0 1px 0 10px;
+    -webkit-text-stroke: 1px black;
+    font-weight: lighter;
 
     h2{
         padding: 30px;
         padding-bottom: 20px;
+    }
+
+    .container p{
+        text-shadow: 0px;
+        -webkit-text-stroke: 0px ;
+        margin-bottom: 35px;
+        text-align: center;
     }
 }
 
@@ -18,6 +28,10 @@ header svg{
 
 header .link-github{
     display: none;
+}
+
+nav{
+    margin-bottom: 65px;
 }
 
 nav ul{
@@ -41,5 +55,5 @@ nav a:hover{
 }
 
 .container > p{
-    text-align: center;
+    text-align: left;
 }
