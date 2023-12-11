@@ -48,7 +48,7 @@ nav ul{
         padding: 10px;
     }
 
-    @media screen and (min-width: 536px) {
+    @media screen and (min-width: 736px) {
         padding: 16px;
         flex-direction: row;
         
@@ -60,6 +60,7 @@ nav a{
     padding: 10px;
     border-radius: 10px;
     font-size: 23px;
+    transition: 1s ease-in-out;
 }
 
 
@@ -67,6 +68,7 @@ nav a:hover{
     background-color: #FFFFFF21;
     text-shadow: #FC0 1px 0px 20px;
     color: black;
+    transition: 1s ease-in-out;
 
 }
 
