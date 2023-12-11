@@ -22,6 +22,14 @@ nav ul li{
   -webkit-text-stroke: 1px black;
 }
 
+ul{
+  li{
+    padding-left: 20px;
+  }
+  list-style-type: "\2601";
+
+}
+
 h1,
 h2
 {
@@ -73,13 +81,11 @@ p {
 }
 
 #about ul {
-  list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
 }
-
 #guidelines {
   display: grid;
   grid-template-columns: 1fr;
